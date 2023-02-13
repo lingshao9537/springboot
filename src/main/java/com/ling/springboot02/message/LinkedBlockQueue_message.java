@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * 模拟生产者和消费者
+ * 模拟生产者和消费者 ling
  */
 @Service
 public class LinkedBlockQueue_message {
