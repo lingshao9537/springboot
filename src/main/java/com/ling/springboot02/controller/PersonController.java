@@ -32,6 +32,10 @@ public class PersonController {
 //        return l;
 //    }
 
+    /**
+     * 测试阻塞队列的功能
+     * @param message
+     */
     @GetMapping("/cusLinkQueue")
     public void cusLinkQueue(@RequestParam String message) {
         blockQueueMessage.addMessage(message);
